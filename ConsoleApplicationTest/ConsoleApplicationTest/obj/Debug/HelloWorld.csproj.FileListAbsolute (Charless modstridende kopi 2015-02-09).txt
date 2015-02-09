@@ -1,0 +1,6 @@
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.exe.config
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.exe
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.pdb
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\obj\Debug\ConsoleApplicationTest.exe
+D:\Dropbox\datamatiker\Semester 4\C Sharp\Projects\ConsoleApplicationTest\ConsoleApplicationTest\obj\Debug\ConsoleApplicationTest.pdb

@@ -1,0 +1,5 @@
+C:\Users\cda\Dropbox\datamatiker\Semester 4\C Sharp\Projects\HelloWorld4\HelloWorld4\bin\Debug\HelloWorld4.exe.config
+C:\Users\cda\Dropbox\datamatiker\Semester 4\C Sharp\Projects\HelloWorld4\HelloWorld4\bin\Debug\HelloWorld4.exe
+C:\Users\cda\Dropbox\datamatiker\Semester 4\C Sharp\Projects\HelloWorld4\HelloWorld4\bin\Debug\HelloWorld4.pdb
+C:\Users\cda\Dropbox\datamatiker\Semester 4\C Sharp\Projects\HelloWorld4\HelloWorld4\obj\Debug\HelloWorld4.exe
+C:\Users\cda\Dropbox\datamatiker\Semester 4\C Sharp\Projects\HelloWorld4\HelloWorld4\obj\Debug\HelloWorld4.pdb

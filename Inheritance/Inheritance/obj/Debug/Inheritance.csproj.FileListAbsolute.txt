@@ -1,0 +1,6 @@
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\bin\Inheritance.dll.config
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\bin\Inheritance.dll
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\bin\Inheritance.pdb
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\obj\Debug\Inheritance.dll
+C:\Users\cda\Desktop\slet visual studio\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

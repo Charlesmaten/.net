@@ -1,0 +1,6 @@
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\obj\Debug\FishApplication.csprojResolveAssemblyReference.cache
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\bin\FishApplication.dll.config
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\bin\FishApplication.dll
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\bin\FishApplication.pdb
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\obj\Debug\FishApplication.dll
+C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\obj\Debug\FishApplication.pdb

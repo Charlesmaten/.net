@@ -4,3 +4,9 @@ C:\Users\cda\Desktop\slet visual studio\ControlExamples\ControlExamples\bin\Cont
 C:\Users\cda\Desktop\slet visual studio\ControlExamples\ControlExamples\obj\Debug\ControlExamples.csprojResolveAssemblyReference.cache
 C:\Users\cda\Desktop\slet visual studio\ControlExamples\ControlExamples\obj\Debug\ControlExamples.dll
 C:\Users\cda\Desktop\slet visual studio\ControlExamples\ControlExamples\obj\Debug\ControlExamples.pdb
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\bin\ControlExamples.dll.config
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\bin\ControlExamples.dll
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\bin\ControlExamples.pdb
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\obj\Debug\ControlExamples.csprojResolveAssemblyReference.cache
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\obj\Debug\ControlExamples.dll
+C:\Users\cda\VisualStudioProjects\.net\ControlExamples\ControlExamples\obj\Debug\ControlExamples.pdb

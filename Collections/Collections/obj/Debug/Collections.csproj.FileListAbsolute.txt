@@ -1,0 +1,6 @@
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\bin\Collections.dll.config
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\bin\Collections.dll
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\bin\Collections.pdb
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\obj\Debug\Collections.dll
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\obj\Debug\Collections.pdb
+C:\Users\cda\VisualStudioProjects\.net\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache

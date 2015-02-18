@@ -25,6 +25,10 @@ namespace ControlExamples
                 DropDownList2.Visible = false;
                 TextBox1.Visible = false;
 
+                ListBox1.Items.Add("Iron");
+                ListBox1.Items.Add("Copper");
+                ListBox1.Items.Add("Bronze");
+
             }
             if (DropDownList2.SelectedIndex > 0)
             {
@@ -62,6 +66,23 @@ namespace ControlExamples
                 DropDownList2.DataBind();
                 DropDownList2.Visible = true;
                 TextBox1.Visible = false;
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            ListBox1.Items.Add(TextBoxItem.Text);
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            TextBoxShow.Text = "";
+            foreach (ListItem li in ListBox1.Items)
+            {
+                if(li.Selected)
+                {
+                    TextBoxShow.Text += li.Text + "\n";
+                }
             }
         }
     }

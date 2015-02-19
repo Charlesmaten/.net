@@ -21,6 +21,22 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" ReadOnly="True" Width="330px"></asp:TextBox>
     
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="ListBox example"></asp:Label>
+        <br />
+        <asp:TextBox ID="TextBoxItem" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add item to listbox" />
+        <br />
+        <asp:ListBox ID="ListBox1" runat="server" SelectionMode="Multiple"></asp:ListBox>
+        <br />
+        <br />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Show Selected Items" />
+        <br />
+        <br />
+        <asp:TextBox ID="TextBoxShow" runat="server" TextMode="MultiLine"></asp:TextBox>
+    
     </div>
     </form>
 </body>

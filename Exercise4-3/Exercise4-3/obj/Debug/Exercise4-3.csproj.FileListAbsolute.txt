@@ -1,0 +1,6 @@
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\bin\Exercise4-3.dll.config
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\bin\Exercise4-3.dll
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\bin\Exercise4-3.pdb
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\obj\Debug\Exercise4-3.csprojResolveAssemblyReference.cache
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\obj\Debug\Exercise4-3.dll
+C:\Users\cda\VisualStudioProjects\.net\Exercise4-3\Exercise4-3\obj\Debug\Exercise4-3.pdb

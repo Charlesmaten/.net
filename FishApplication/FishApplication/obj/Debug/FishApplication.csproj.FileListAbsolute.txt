@@ -4,3 +4,9 @@ C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\bin\FishA
 C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\bin\FishApplication.pdb
 C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\obj\Debug\FishApplication.dll
 C:\Users\cda\VisualStudioProjects\.net\FishApplication\FishApplication\obj\Debug\FishApplication.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\bin\FishApplication.dll.config
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\bin\FishApplication.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\bin\FishApplication.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\obj\Debug\FishApplication.csprojResolveAssemblyReference.cache
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\obj\Debug\FishApplication.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\FishApplication\FishApplication\obj\Debug\FishApplication.pdb

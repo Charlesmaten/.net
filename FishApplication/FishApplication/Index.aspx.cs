@@ -10,12 +10,33 @@ namespace FishApplication
 {
     public partial class Index : System.Web.UI.Page
     {
-        static ArrayList fisharraylist = new ArrayList();
+        ArrayList fisharraylist;
+        int userlevel;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                userlevel = (int)Session["Level"];
+            }
+            catch(NullReferenceException nre)
+            {
+                userlevel = 0;
+                Session["Level"] = userlevel;
+            }
+            finally
+            {
+                SetButtonsAndText();
+                TextBoxPassword.TextMode = TextBoxMode.Password;
+            }
 
-            if (fisharraylist.Count == 0)
+            if (Application["Fishcollection"] == null)
+            {
+                fisharraylist = new ArrayList();
+                Application["Fishcollection"] = fisharraylist;
+            }
+            fisharraylist = (ArrayList)Application["Fishcollection"];
+            if(fisharraylist.Count == 0)
             {
                 TextBoxFish.Text = "No fish";
             }
@@ -30,32 +51,79 @@ namespace FishApplication
 
         }
 
-        protected void ButtonCreate_Click(object sender, EventArgs e)
+        private void SetButtonsAndText()
         {
-            Fish f = new Fish(TextBoxType.Text, Convert.ToDouble(TextBoxLength.Text));
-            fisharraylist.Add(f);
+            if (userlevel == 1)
+            {
+                ButtonCreatepage.Enabled = true;
+                LabelLogin.Text = "You are at level " + Session["Level"];
+            }
+            else
+            {
+                ButtonCreatepage.Enabled = false;
+                LabelLogin.Text = "You are at level " + Session["Level"];
+            }
         }
 
+
+
+
+        
         protected void Button1_Click(object sender, EventArgs e)
         {
+            fisharraylist = (ArrayList)Application["Fishcollection"];
             FileUtility.WriteFile(fisharraylist, Server.MapPath("~/App_Data/Fishfile.ser"));
+            TextBoxFish.Text = "Fishfile.ser was written in App_Data";
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            fisharraylist = FileUtility.ReadFile(Server.MapPath("~/App_Data/Fishfile.ser"));
-            if (fisharraylist.Count == 0)
+            try
             {
-                TextBoxFish.Text = "No fish";
+                fisharraylist = FileUtility.ReadFile(Server.MapPath("~/App_Data/Fishfile.ser"));
+                if (fisharraylist.Count == 0)
+                {
+                    TextBoxFish.Text = "No fish";
+                }
+                else
+                {
+                    TextBoxFish.Text = "Fish from file\n";
+                    for (int i = 0; i < fisharraylist.Count; i++)
+                    {
+                        TextBoxFish.Text += fisharraylist[i].ToString() + "\n";
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        protected void ButtonCreatepage_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CreateFish.aspx");
+        }
+
+        protected void ButtonLogin_Click(object sender, EventArgs e)
+        {
+            if (TextBoxPassword.Text == "secret")
+            {
+                userlevel = 1;
             }
             else
             {
-                TextBoxFish.Text = "Fish from file\n";
-                for (int i = 0; i < fisharraylist.Count; i++)
-                {
-                    TextBoxFish.Text += fisharraylist[i].ToString() + "\n";
-                }
+                userlevel = 0;
             }
+            Session["Level"] = userlevel;
+            SetButtonsAndText();
+        }
+
+        protected void ButtonLogout_Click(object sender, EventArgs e)
+        {
+            userlevel = 0;
+            Session["Level"] = userlevel;
+            SetButtonsAndText();
         }
     }
 }

@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C0978751-FE6C-48D3-B203-581DE7D1E1B6}</ProjectGuid>
+    <ProjectGuid>{79324918-26BF-462E-9487-3C3C0B4D6115}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FishApplication</RootNamespace>
-    <AssemblyName>FishApplication</AssemblyName>
+    <RootNamespace>Exercise4_3</RootNamespace>
+    <AssemblyName>Exercise4-3</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,28 +65,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CreateFish.aspx" />
-    <Content Include="FishError.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateFish.aspx.cs">
-      <DependentUpon>CreateFish.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CreateFish.aspx.designer.cs">
-      <DependentUpon>CreateFish.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FileUtility.cs" />
-    <Compile Include="Fish.cs" />
-    <Compile Include="FishError.aspx.cs">
-      <DependentUpon>FishError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FishError.aspx.designer.cs">
-      <DependentUpon>FishError.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,9 +77,6 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -112,9 +91,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50363</DevelopmentServerPort>
+          <DevelopmentServerPort>49947</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50363/</IISUrl>
+          <IISUrl>http://localhost:49947/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

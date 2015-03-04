@@ -1,0 +1,12 @@
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\bin\Inheritance.dll.config
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\bin\Inheritance.dll
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\bin\Inheritance.pdb
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\obj\Debug\Inheritance.dll
+C:\Users\tor\Documents\DAT42015f\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\bin\Inheritance.dll.config
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\bin\Inheritance.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\bin\Inheritance.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\obj\Debug\Inheritance.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

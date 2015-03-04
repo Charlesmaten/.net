@@ -1,0 +1,12 @@
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\bin\CS2Webprogramming.dll.config
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\bin\CS2Webprogramming.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\bin\CS2Webprogramming.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\obj\Debug\CS2Webprogramming.csprojResolveAssemblyReference.cache
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\obj\Debug\CS2Webprogramming.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\Inheritance AndControls\Inheritance\CS2Webprogramming\obj\Debug\CS2Webprogramming.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\bin\CS2Webprogramming.dll.config
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\bin\CS2Webprogramming.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\bin\CS2Webprogramming.pdb
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\obj\Debug\CS2Webprogramming.csprojResolveAssemblyReference.cache
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\obj\Debug\CS2Webprogramming.dll
+C:\Users\Charlesmaten\Documents\Visual Studio 2013\Projects\CS2Webprogramming\obj\Debug\CS2Webprogramming.pdb

@@ -10,7 +10,7 @@ namespace CS2Webprogramming
     {
         private string position;
 
-        public Staffmember(int id, string name, int phonenumber, string password, string position) : base(id, name, phonenumber, password)
+        public Staffmember(int id, string name, int phonenumber, string password, string address, string position) : base(id, name, phonenumber, password, address)
         {
             this.position = position;
         }

@@ -10,8 +10,16 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:ListBox ID="ListBoxResults" runat="server" Height="234px" Width="604px"></asp:ListBox>
-    
+        <asp:ListBox ID="ListBoxResults" runat="server" Height="234px" Width="604px"></asp:ListBox>   
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="ButtonSave" runat="server" OnClick="ButtonSave_Click" Text="Save" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="ButtonLoad" runat="server" OnClick="ButtonLoad_Click" Text="Load" />
+
     </div>
     </form>
 </body>

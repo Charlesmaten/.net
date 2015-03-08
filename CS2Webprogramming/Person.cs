@@ -40,13 +40,18 @@ namespace CS2Webprogramming
         public string Password
         {
             get { return password; }
+            //setter til at skifte password
         }
 
         public override string ToString()
         {
             return "Person: " + Name + "has id: " + Id + " and phonenumber: " + Phonenumber + "and password: ";
         }
-        
+
+        public void ChangePassword()
+        {
+            //metode der skifer password, skal minimum have 4 characters
+        }
 
     }
 }

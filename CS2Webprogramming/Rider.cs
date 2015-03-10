@@ -5,6 +5,7 @@ using System.Web;
 
 namespace CS2Webprogramming
 {
+    [Serializable]
     public class Rider : Person
     {
 
@@ -12,7 +13,7 @@ namespace CS2Webprogramming
         private string horse;
         private string nationality;
 
-        public Rider(int id, string name, int phonenumber, string password, int number, string horse, string nationality) : base(id, name, phonenumber, password)
+        public Rider(int id, string name, int phonenumber, string password, string address, int number, string horse, string nationality) : base(id, name, phonenumber, password, address)
         {
             this.number = number;
             this.horse = horse;

@@ -1,0 +1,6 @@
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\bin\MasterDemo.dll.config
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\bin\MasterDemo.dll
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\bin\MasterDemo.pdb
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\obj\Debug\MasterDemo.csprojResolveAssemblyReference.cache
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\obj\Debug\MasterDemo.dll
+C:\Users\cda\VisualStudioProjects\.net\MasterDemo\MasterDemo\obj\Debug\MasterDemo.pdb

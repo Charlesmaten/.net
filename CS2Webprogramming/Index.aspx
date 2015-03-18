@@ -16,7 +16,7 @@
         <br />
         <asp:Button ID="ButtonCreateRider" runat="server" OnClick="ButtonCreateRider_Click" Text="Create Rider Page" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="ButtonEditRider" runat="server" Text="Edit Rider" />
+        <asp:Button ID="ButtonEditRider" runat="server" Text="Edit Rider" OnClick="ButtonEditRider_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="ButtonEditStaff" runat="server" Text="Edit Staff" />
         <br />

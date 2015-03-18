@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8524BBDE-212A-4970-BAD5-EA658EEFB95B}</ProjectGuid>
+    <ProjectGuid>{D3835008-7D39-470B-9215-E0B1DA7CA8D3}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CS2Webprogramming</RootNamespace>
-    <AssemblyName>CS2Webprogramming</AssemblyName>
+    <RootNamespace>Delegate</RootNamespace>
+    <AssemblyName>Delegate</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,29 +65,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Riderfile.ser" />
-    <Content Include="CreateRider.aspx" />
-    <Content Include="EditRider.aspx" />
     <Content Include="Index.aspx" />
-    <Content Include="RiderError.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateRider.aspx.cs">
-      <DependentUpon>CreateRider.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CreateRider.aspx.designer.cs">
-      <DependentUpon>CreateRider.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EditRider.aspx.cs">
-      <DependentUpon>EditRider.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EditRider.aspx.designer.cs">
-      <DependentUpon>EditRider.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FileUtility.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,17 +76,9 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Person.cs" />
+    <Compile Include="MyDelegate.cs" />
+    <Compile Include="MyNewDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rider.cs" />
-    <Compile Include="RiderError.aspx.cs">
-      <DependentUpon>RiderError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="RiderError.aspx.designer.cs">
-      <DependentUpon>RiderError.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Staffmember.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -120,9 +93,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52443</DevelopmentServerPort>
+          <DevelopmentServerPort>51665</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52443/</IISUrl>
+          <IISUrl>http://localhost:51656/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

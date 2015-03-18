@@ -157,6 +157,11 @@ namespace CS2Webprogramming
             SetButtonsAndText();
         }
 
+        protected void ButtonEditRider_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditRider.aspx");
+        }
+
 
 
     }

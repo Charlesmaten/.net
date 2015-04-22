@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Basicsservices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Basicsservices_localhost1_Mathservice" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50050/Mathservice.asmx</Value>
+    </Setting>
+    <Setting Name="Basicsservices_localhost2_Evenoddservice" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51426/Evenoddservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

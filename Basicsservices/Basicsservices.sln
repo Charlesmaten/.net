@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basicsservices", "Basicsservices\Basicsservices.csproj", "{DB53366D-678D-45A3-B2A8-C2AC314D8C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathservice", "Mathservice\Mathservice.csproj", "{D9593CC6-F181-4B8A-8B54-936FFFFF2BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evenoddservice", "Evenoddservice\Evenoddservice.csproj", "{DB90FCAE-A6D0-4D48-A6D6-84D5403A9865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB53366D-678D-45A3-B2A8-C2AC314D8C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB53366D-678D-45A3-B2A8-C2AC314D8C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB53366D-678D-45A3-B2A8-C2AC314D8C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB53366D-678D-45A3-B2A8-C2AC314D8C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9593CC6-F181-4B8A-8B54-936FFFFF2BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9593CC6-F181-4B8A-8B54-936FFFFF2BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9593CC6-F181-4B8A-8B54-936FFFFF2BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9593CC6-F181-4B8A-8B54-936FFFFF2BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB90FCAE-A6D0-4D48-A6D6-84D5403A9865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB90FCAE-A6D0-4D48-A6D6-84D5403A9865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB90FCAE-A6D0-4D48-A6D6-84D5403A9865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB90FCAE-A6D0-4D48-A6D6-84D5403A9865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

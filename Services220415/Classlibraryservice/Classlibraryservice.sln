@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classlibraryservice", "Classlibraryservice\Classlibraryservice.csproj", "{724F0931-908C-4EC8-B126-CFF2DC5532BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nameservice", "Nameservice\Nameservice.csproj", "{F33C68D3-D198-4FA4-B9E8-1662089CD2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myclasslibrary", "Myclasslibrary\Myclasslibrary.csproj", "{BB80EFEF-36FC-4419-A78C-115F3EBA7ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724F0931-908C-4EC8-B126-CFF2DC5532BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F0931-908C-4EC8-B126-CFF2DC5532BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F0931-908C-4EC8-B126-CFF2DC5532BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F0931-908C-4EC8-B126-CFF2DC5532BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33C68D3-D198-4FA4-B9E8-1662089CD2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33C68D3-D198-4FA4-B9E8-1662089CD2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33C68D3-D198-4FA4-B9E8-1662089CD2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33C68D3-D198-4FA4-B9E8-1662089CD2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB80EFEF-36FC-4419-A78C-115F3EBA7ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB80EFEF-36FC-4419-A78C-115F3EBA7ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB80EFEF-36FC-4419-A78C-115F3EBA7ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB80EFEF-36FC-4419-A78C-115F3EBA7ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

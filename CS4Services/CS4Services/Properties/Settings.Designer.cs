@@ -32,5 +32,15 @@ namespace CS4Services.Properties {
                 return ((string)(this["CS4Services_CalcService_CalcService"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:62892/ArcherService.asmx")]
+        public string CS4Services_ArcherService_ArcherService {
+            get {
+                return ((string)(this["CS4Services_ArcherService_ArcherService"]));
+            }
+        }
     }
 }

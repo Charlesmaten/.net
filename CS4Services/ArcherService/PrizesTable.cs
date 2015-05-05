@@ -8,7 +8,7 @@ namespace ArcherService
 {
     public class PrizesTable
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
         public string Alias { get; set; }
         public string Prizes { get; set; }
 

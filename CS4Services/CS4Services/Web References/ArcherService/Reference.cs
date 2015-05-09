@@ -160,27 +160,27 @@ namespace CS4Services.ArcherService {
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
     public partial class Answer {
         
-        private PrizesTable prizesTableField;
+        private PrizesData prizesDataField;
         
-        private NameTable nameTableField;
+        private NameData nameDataField;
         
         /// <remarks/>
-        public PrizesTable PrizesTable {
+        public PrizesData PrizesData {
             get {
-                return this.prizesTableField;
+                return this.prizesDataField;
             }
             set {
-                this.prizesTableField = value;
+                this.prizesDataField = value;
             }
         }
         
         /// <remarks/>
-        public NameTable NameTable {
+        public NameData NameData {
             get {
-                return this.nameTableField;
+                return this.nameDataField;
             }
             set {
-                this.nameTableField = value;
+                this.nameDataField = value;
             }
         }
     }
@@ -191,7 +191,7 @@ namespace CS4Services.ArcherService {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
-    public partial class PrizesTable {
+    public partial class PrizesData {
         
         private int idField;
         
@@ -236,7 +236,7 @@ namespace CS4Services.ArcherService {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
-    public partial class NameTable {
+    public partial class NameData {
         
         private int archerIdField;
         

@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.min.css" />
     <Content Include="Web References\ArcherService\Answer.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </Content>

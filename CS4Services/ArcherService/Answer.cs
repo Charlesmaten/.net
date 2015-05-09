@@ -9,8 +9,8 @@ namespace ArcherService
     public class Answer
     {
 
-        public PrizesTable PrizesTable { get; set; }
-        public NameTable NameTable { get; set; }
+        public PrizesData PrizesData { get; set; }
+        public NameData NameData { get; set; }
 
         public Answer()
         {

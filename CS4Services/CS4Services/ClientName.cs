@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace CS4Services
 {
-    class ClientName
+    public class ClientName
     {
-        public string Name { get; set; }
-        public string Alias { get; set; }
-        public ClientPrizes Own { get; set; }
+        private string name;
+        private string alias;
+        private ClientPrizes own;
 
-
-        public ClientName(ArcherService.NameTable nt, ClientPrizes cp)
+        public ClientName(ArcherService.NameData nt, ClientPrizes cp)
         {
             Name = nt.Name;
             Alias = nt.Alias;
             Own = cp;
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public string Alias
+        {
+            get { return alias; }
+            set { alias = value; }
+        }
+
+        public ClientPrizes Own
+        {
+            get { return own; }
+            set { own = value; }
         }
 
 

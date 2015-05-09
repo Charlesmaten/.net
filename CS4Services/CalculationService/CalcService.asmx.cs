@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
+using System.Web.UI.WebControls;
 
 namespace CalculationService
 {
@@ -16,42 +17,44 @@ namespace CalculationService
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
     public class CalcService : System.Web.Services.WebService
-    {
-        /*
-        The service should receive results from a shooting as a string with a sequence of numbers. 
-	    The service should be able to return the total and average points.
-	    The service should also be able to return a string with the numbers sorted
-        */
-
-
+    {   
         [WebMethod]
-        public int TotalPoints(int a, int b, int c)
+        public string TotalPoints(string a)
         {
-            return a + b + c;
+            string[] nums = a.Split(';');
+            int total = 0;
+            foreach (string s in nums)
+            {
+                int tmp = int.Parse(s);
+                total += tmp;
+            }
+            return Convert.ToString(total);
         }
-
+        
         [WebMethod]
-        public int AveragePoints(int a, int b, int c)
+        public string AveragePoints(string a)
         {
-            return TotalPoints(a,b,c)/3;
-        }
+            string[] nums = a.Split(';');
+            int total = 0;
+            foreach (string s in nums)
+            {
+                int tmp = int.Parse(s);
+                total += tmp;
+            }
+            int total1 = total/3;
+            return Convert.ToString(total1);
 
+        }
+     
+        
         [WebMethod]
-        public List<string> GetSorted(string a, string b, string c)
-        //public string Sorted()
+        public List<string> GetSorted(string a, string b, string c)     
         {
             var sortedList = new List<string> {a, b, c};
             sortedList.Sort();
             return sortedList;
-
-
-
-
-            //ArrayList sortedList = new ArrayList {a, b, c};
-            //sortedList.Sort();
-            //return sortedList;
-
         }
+         
 
 
 

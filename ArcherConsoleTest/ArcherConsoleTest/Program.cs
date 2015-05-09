@@ -12,6 +12,8 @@ namespace ArcherConsoleTest
     {
         static void Main(string[] args)
         {
+           
+            /*
             string name = "Henrik";
             SqlConnection conn = new SqlConnection(@"data source = .\sqlexpress; integrated security = true; database = ArcherDb");
             conn.Open();
@@ -24,9 +26,40 @@ namespace ArcherConsoleTest
             nt.ArcherId = (int)rdr["ArcherID"];
             nt.Name = rdr["Name"].ToString();
             nt.Alias = rdr["Alias"].ToString();
-            Console.WriteLine(nt.Name);
-            Console.ReadKey();
             rdr.Close();
+
+            Console.WriteLine(nt.Name);
+            Console.WriteLine(nt.Alias);
+            Console.ReadKey();
+             */
+            TesterSort();
+
+
+
+        }
+
+        public static string TesterSort()
+        {
+            string a = "3;2;1";           
+            string[] nums = a.Split(';');
+            int total = 0;
+            foreach (string s in nums)
+            {
+                int tmp = int.Parse(s);
+                total += tmp;
+            }
+
+
+
+
+
+
+
+
+
+            Console.WriteLine(total);
+            Console.ReadKey();
+            return Convert.ToString(total);
         }
     }
 }

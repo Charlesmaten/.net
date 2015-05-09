@@ -5,32 +5,28 @@
       <s:element name="TotalPoints">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
-            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
-            <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="a" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
       <s:element name="TotalPointsResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="TotalPointsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="TotalPointsResult" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
       <s:element name="AveragePoints">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
-            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
-            <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="a" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
       <s:element name="AveragePointsResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="AveragePointsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AveragePointsResult" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>

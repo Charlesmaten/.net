@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS4Services
+namespace ArcherService
 {
-    public class ClientPrizes
+    public class PrizesData
     {
+        private int id;
         private string alias;
         private string prizes;
 
-        public ClientPrizes(ArcherService.PrizesData pt)
+        public int Id
         {
-            Alias = pt.Alias;
-            Prizes = pt.Prizes;
+            get { return id; }
+            set { id = value; }
         }
 
         public string Alias
@@ -29,10 +30,10 @@ namespace CS4Services
             set { prizes = value; }
         }
 
-
-        public override string ToString()
+        public PrizesData()
         {
-            return " With the prizes " + Prizes;
+
         }
+
     }
 }

@@ -74,8 +74,8 @@
       <DependentUpon>ArcherService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="NameTable.cs" />
-    <Compile Include="PrizesTable.cs" />
+    <Compile Include="NameData.cs" />
+    <Compile Include="PrizesData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>

@@ -17,12 +17,7 @@ namespace ArcherService
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
     public class ArcherService : System.Web.Services.WebService
-    {
-        /*
-        The service should receive a real name.
-	    The service should return the alias and a list of prizes.
-        */
-
+    {      
 
         [WebMethod]
         public Answer FindName(string name)        
@@ -30,11 +25,11 @@ namespace ArcherService
             SqlConnection conn = new SqlConnection(@"data source = .\sqlexpress; integrated security = true; database = ArcherDb");          
             conn.Open();
             SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = @"SELECT * FROM NameTable WHERE Name = '" + name + "'"; //ArcherID ændret til Name        
+            cmd.CommandText = @"SELECT * FROM NameTable WHERE Name = '" + name + "'";      
             SqlDataReader rdr = cmd.ExecuteReader();
             rdr.Read();
 
-            NameTable nt = new NameTable();
+            NameData nt = new NameData();
             nt.ArcherId = (int) rdr["ArcherID"];
             nt.Name = rdr["Name"].ToString();
             nt.Alias = rdr["Alias"].ToString();
@@ -43,7 +38,8 @@ namespace ArcherService
             cmd.CommandText = @"SELECT * from PrizesTable WHERE Alias = '" + nt.Alias + "'";
             rdr = cmd.ExecuteReader();
             rdr.Read();
-            PrizesTable pt = new PrizesTable();
+            PrizesData pt = new PrizesData();
+            pt.Id = (int) rdr["ID"];
             pt.Alias = rdr["Alias"].ToString();
             pt.Prizes = rdr["Prizes"].ToString();
             rdr.Close();
@@ -51,13 +47,12 @@ namespace ArcherService
             conn.Close();
 
             Answer a = new Answer();
-            a.NameTable = nt;
-            a.PrizesTable = pt;
+            a.NameData = nt;
+            a.PrizesData = pt;
+
             return a;
 
         }
-
-
 
 
         [WebMethod]

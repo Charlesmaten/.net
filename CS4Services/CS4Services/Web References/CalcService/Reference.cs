@@ -89,28 +89,24 @@ namespace CS4Services.CalcService {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/TotalPoints", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public int TotalPoints(int a, int b, int c) {
+        public string TotalPoints(string a) {
             object[] results = this.Invoke("TotalPoints", new object[] {
-                        a,
-                        b,
-                        c});
-            return ((int)(results[0]));
+                        a});
+            return ((string)(results[0]));
         }
         
         /// <remarks/>
-        public void TotalPointsAsync(int a, int b, int c) {
-            this.TotalPointsAsync(a, b, c, null);
+        public void TotalPointsAsync(string a) {
+            this.TotalPointsAsync(a, null);
         }
         
         /// <remarks/>
-        public void TotalPointsAsync(int a, int b, int c, object userState) {
+        public void TotalPointsAsync(string a, object userState) {
             if ((this.TotalPointsOperationCompleted == null)) {
                 this.TotalPointsOperationCompleted = new System.Threading.SendOrPostCallback(this.OnTotalPointsOperationCompleted);
             }
             this.InvokeAsync("TotalPoints", new object[] {
-                        a,
-                        b,
-                        c}, this.TotalPointsOperationCompleted, userState);
+                        a}, this.TotalPointsOperationCompleted, userState);
         }
         
         private void OnTotalPointsOperationCompleted(object arg) {
@@ -122,28 +118,24 @@ namespace CS4Services.CalcService {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/AveragePoints", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public int AveragePoints(int a, int b, int c) {
+        public string AveragePoints(string a) {
             object[] results = this.Invoke("AveragePoints", new object[] {
-                        a,
-                        b,
-                        c});
-            return ((int)(results[0]));
+                        a});
+            return ((string)(results[0]));
         }
         
         /// <remarks/>
-        public void AveragePointsAsync(int a, int b, int c) {
-            this.AveragePointsAsync(a, b, c, null);
+        public void AveragePointsAsync(string a) {
+            this.AveragePointsAsync(a, null);
         }
         
         /// <remarks/>
-        public void AveragePointsAsync(int a, int b, int c, object userState) {
+        public void AveragePointsAsync(string a, object userState) {
             if ((this.AveragePointsOperationCompleted == null)) {
                 this.AveragePointsOperationCompleted = new System.Threading.SendOrPostCallback(this.OnAveragePointsOperationCompleted);
             }
             this.InvokeAsync("AveragePoints", new object[] {
-                        a,
-                        b,
-                        c}, this.AveragePointsOperationCompleted, userState);
+                        a}, this.AveragePointsOperationCompleted, userState);
         }
         
         private void OnAveragePointsOperationCompleted(object arg) {
@@ -250,10 +242,10 @@ namespace CS4Services.CalcService {
         }
         
         /// <remarks/>
-        public int Result {
+        public string Result {
             get {
                 this.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
+                return ((string)(this.results[0]));
             }
         }
     }
@@ -276,10 +268,10 @@ namespace CS4Services.CalcService {
         }
         
         /// <remarks/>
-        public int Result {
+        public string Result {
             get {
                 this.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
+                return ((string)(this.results[0]));
             }
         }
     }

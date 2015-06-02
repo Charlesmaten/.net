@@ -2,11 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CS4Services.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="CS4Services_CalcService_CalcService" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:51269/CalcService.asmx</Value>
-    </Setting>
     <Setting Name="CS4Services_ArcherService_ArcherService" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">http://localhost:62892/ArcherService.asmx</Value>
+    </Setting>
+    <Setting Name="CS4Services_CalcService_CalcService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51269/CalcService.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

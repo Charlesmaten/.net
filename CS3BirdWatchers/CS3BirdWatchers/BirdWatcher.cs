@@ -29,6 +29,7 @@ namespace CS3BirdWatchers
             Text = "Bird Watcher " + location;
             autonumber++;
             this.log = log;
+            // Subscriber fra log.birdevent. 
             log.birdEvent += new Log.BirdEventHandler(BirdSpotted);
         }
 

@@ -67,7 +67,6 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
     <None Include="Web References\CalcService\CalcService.wsdl" />
-    <None Include="Web References\ArcherService\ArcherService.disco" />
     <Content Include="Web References\CalcService\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -85,6 +84,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Content Include="Index.aspx" />
+    <None Include="Web References\ArcherService\ArcherService.disco" />
     <None Include="Web References\CalcService\CalcService.disco" />
     <Content Include="Web.config" />
   </ItemGroup>

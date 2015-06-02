@@ -45,6 +45,7 @@ namespace CS3BirdWatchers
                 button1.Enabled = true;
             }
             Birds birds = new Birds(description, rarity, location);
+            // instancere eventet
             birdEvent(this, birds);
         }
 

@@ -6,13 +6,14 @@ using System.Web;
 namespace CS2Webprogramming
 {
     [Serializable]
+    // Inherits from person
     public class Rider : Person
     {
 
         private int number;
         private string horse;
         private string nationality;
-
+        // Base fortæller hvilken dele denne klasse aver fra person klassen
         public Rider(int id, string name, int phonenumber, string password, string address, int number, string horse, string nationality) : base(id, name, phonenumber, password, address)
         {
             this.number = number;

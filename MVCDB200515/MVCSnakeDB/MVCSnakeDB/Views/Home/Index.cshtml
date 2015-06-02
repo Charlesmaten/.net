@@ -1,0 +1,54 @@
+﻿<table style="border-spacing:10px">
+    <tr>
+        <td style="background-color:#66ff66; padding:5px">
+            SnakeID
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Type
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Name
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Length
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Owner
+        </td>
+    </tr>
+
+    @foreach (System.Data.DataRow dr in ViewBag.Snakelist.Rows)
+    {
+        <tr>
+            <td>
+                @dr["SnakeID"].ToString()
+            </td>
+            <td>
+                @dr["Type"].ToString()
+            </td>
+            <td>
+                @dr["Name"].ToString()
+            </td>
+            <td>
+                @dr["Length"].ToString()
+            </td>
+            <td>
+                @dr["Owner"].ToString()
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+@Html.ActionLink("View a mamba", "Index", "Mamba")
+<br />
+<br />
+<br />
+
+@{
+    <form method="post" action="">
+        SnakeID :
+        <input type="text" name="SnakeID" value="" />
+        <input type="submit" value="View selected snake with owner" class="submit" />
+    </form>
+}

@@ -1,0 +1,22 @@
+﻿@model System.Collections.Generic.List<MVCExamples.Models.Product>
+
+@using MVCExamples.Models;
+
+@{
+    ViewBag.Title = "My simple title";
+}
+
+<h2>@ViewBag.Title</h2>
+<h2>@ViewBag.Message</h2>
+
+<p>bla bla bla</p>
+
+<p>@Html.Label("Text in a label")</p>
+
+<ul>
+    <li>@Model.Count products in Model</li>
+    @foreach(Product p in Model)
+    {
+        <li>@p.Productname</li>
+    }
+</ul>

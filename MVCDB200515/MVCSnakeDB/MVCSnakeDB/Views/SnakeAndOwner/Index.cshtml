@@ -1,0 +1,37 @@
+﻿
+@ViewData["message"]
+<br />
+
+<table style="border-spacing:10px">
+    <tr>
+        <td style="background-color:#66ff66; padding:5px">
+            SnakeID
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Snake name
+        </td>
+        <td style="background-color:#66ff66; padding:5px">
+            Owner name
+        </td>
+    </tr>
+
+    @foreach (System.Data.DataRow dr in ViewBag.Snakeandownerlist.Rows)
+    {
+        <tr>
+            <td>
+                @dr["SnakeID"].ToString()
+            </td>
+            <td>
+                @dr["Name"].ToString()
+            </td>
+            <td>
+                @dr["Name1"].ToString()
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+@Html.ActionLink("Back to home", "Index", "Home")
+
+
